@@ -1,0 +1,44 @@
+body{
+    background-color: #0D0D0D;
+    color: #f9f6f6 !important;
+    overflow: hidden;
+}
+.loading-screen{
+    z-index: 999;
+    display: flex;
+}
+i{
+    cursor: pointer;
+}
+img{
+    width: 50px;
+}
+.meal-layer{
+    width: 100%;
+    height: 100%;
+    background-color: #f9f6f6ca;
+    top: 100%;
+    transition: .5s;
+}
+.meal:hover .meal-layer{
+    top: 0;
+}
+.side-nav-menu{
+    z-index: 99;
+}
+.nav-tab{
+    background-color: #0D0D0D; 
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.alert{
+    width: fit-content;
+}
+.inner-loading-screen{
+    position: absolute;
+    z-index: 9;
+    background-color: #0D0D0D;
+    display: flex;
+}
